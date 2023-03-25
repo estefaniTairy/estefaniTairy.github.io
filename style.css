@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+:root {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+.navbar {
+    margin-right: 30px;
+}
+.navbar a {
+    padding: 23px 20px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover {
+    background: powderblue;
+}
+.logo {
+    margin-left: 30px;
+}
+.logo a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.log a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: rgb(214, 106, 124);
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: white;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.header {
+    height: 60vh !important;
+    background: url(img/buy.png) no-repeat center;
+    background-size: cover;
+}
+.title {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: white;
+}
+p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 0 100px;
+}
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid black;
+    color: black;
+    text-decoration: none;
+    background: pink;
+}
+.btn:hover {
+    background: none;
+}
+.btn-home {
+    display: flex;
+}
+.btn-home a {
+    margin: 0 10px;
+}
+.desc {
+    display: none;
+}
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#sau {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: white;
+}
+.sau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    background: url(img/polvorosas.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box {
+    height: 11rem;
+    width: 25rem;
+    background: palevioletred;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0,0,0,5);
+    margin: 2rem;
+}
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: plum;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+.box-container .box h3 {
+    font-size: 20px;
+    color: white;
+}
+.box-container .box p {
+    font-size: 16px;
+    color: white;
+    padding: 0 15px;
+}
+#about {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: white;
+}
+.about {
+    background: powderblue;
+}
+.price {
+    background: url(img/liqbuyu.png) no-repeat center;
+    font-weight: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.galery {
+    background: pink;
+    padding: 200px;
+}
+.contenedor-galeria {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img-galeria {
+    width: 16%;
+    display: block;
+    margin-bottom: 100px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+#galery {
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: white;
+}
+.imagen-light {
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+.show {
+    transform: translate(0);
+}
+.agregar-imagen {
+    width: 40%;
+    border-radius: 100px;
+    transform: scale(0);
+    transition: transform .3s .2s;
+}
+.showimage {
+    transform: scale(1);
+}
+.close {
+    position: relative;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
+#contacto {
+    margin-bottom: 40px;
+    font-weight: 600px;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+.contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    font-size: 50px;
+    background: pink;
+}
+.iconos i {
+    font-size: 2rem;
+    padding: .8rem 2rem;
+}
+.map {
+    text-align: center;
+    padding-top: 20px;
+    background: pink;
+    padding-top: 0;
+}
+@media (max-width: 500px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+    .sau {
+        height: 120vh;
+    }
+    .navbar {
+        display: none;
+    }   
+}
